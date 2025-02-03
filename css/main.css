@@ -387,8 +387,17 @@ Created by : mutationthemes
  h1.large {
      font-size: 3rem;
      line-height: 1.5;
-     letter-spacing: 1.5rem;
+     letter-spacing: 1px;
      font-weight: 400;
+}
+
+@media(min-width:1024px){
+    h1.large {
+        font-size: 3rem;
+        line-height: 1.5;
+        letter-spacing: 28px;
+        font-weight: 400;
+   }
 }
 
 .hero h2{
