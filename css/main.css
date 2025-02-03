@@ -215,9 +215,7 @@ Created by : mutationthemes
      content: "";
 }
 
- .header {
-     padding: .4em 0;
-}
+ 
  .slider .slides li {
      background-size: cover;
      
@@ -250,7 +248,7 @@ Created by : mutationthemes
      display: inline-block;
      width: 70px;
      position: relative;
-     top: 0;
+     top: 10px;
      right: 10px;
 }
  .header .logo h2 {
@@ -267,7 +265,7 @@ Created by : mutationthemes
      height: 1.5rem;
      position: absolute;
      right: -1.275rem;
-     top: -3.8rem;
+     top: -3.5rem;
      z-index: 1000;
      display: none;
 }
@@ -386,7 +384,7 @@ Created by : mutationthemes
 }
  h1.large {
      font-size: 3rem;
-     line-height: 1.5;
+     line-height: 1.2;
      letter-spacing: 1px;
      font-weight: 400;
 }
