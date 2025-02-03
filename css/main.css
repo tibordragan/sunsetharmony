@@ -385,7 +385,7 @@ Created by : mutationthemes
  h1.large {
      font-size: 3rem;
      line-height: 1.2;
-     letter-spacing: 1px;
+     letter-spacing: .6px;
      font-weight: 400;
 }
 
