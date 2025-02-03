@@ -1021,7 +1021,7 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
     }
 
     .back-rect, .front-rect{display: none;}
-    h1.large{font-size: 3rem;}
+    h1.large{font-size: 2rem;}
 
     .playlist li .col-lg-6 span,.block-tab .col-lg-4 span{margin-bottom: 1rem;display: block;}
     .sing{margin-bottom: 3rem !important;max-width: 40%;}
