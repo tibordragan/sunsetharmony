@@ -385,9 +385,9 @@ Created by : mutationthemes
      height: 40vh;
 }
  h1.large {
-     font-size: 1rem;
+     font-size: 2rem;
      line-height: 1.2;
-     letter-spacing: .6px;
+     letter-spacing: 1px;
      font-weight: 300;
      font-family: "Dosis";
      
@@ -1022,7 +1022,7 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
     }
 
     .back-rect, .front-rect{display: none;}
-    h1.large{font-size: 2rem;}
+    h1.large{font-size: 3rem;}
 
     .playlist li .col-lg-6 span,.block-tab .col-lg-4 span{margin-bottom: 1rem;display: block;}
     .sing{margin-bottom: 3rem !important;max-width: 40%;}
