@@ -378,6 +378,7 @@ Created by : mutationthemes
      -ms-transform: translateY(-50%);
      -o-transform: translateY(-50%);
      z-index: 4;
+     font-family: "Dosis";
 }
 
 .hero.single{
@@ -388,7 +389,7 @@ Created by : mutationthemes
      line-height: 1.2;
      letter-spacing: .6px;
      font-weight: 300;
-     font-family: 'Dosis';
+     font-family: "Dosis";
      
 }
 
