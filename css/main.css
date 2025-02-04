@@ -196,6 +196,7 @@ Created by : mutationthemes
      background-origin: padding-box;
      background-position: 50% 50% !important;
      background-repeat: repeat;
+     background-position: center;
      background-size: cover !important;
      height: 100%;
      left: 0;
@@ -258,8 +259,8 @@ Created by : mutationthemes
      font-weight: 600;
 }
 
- .header.switched-header .logo h2{
-     color: #222222;
+ .header.switched-header .logo{
+     filter: brightness(30%);
  }
  .mobile-but {
      display: inline-block;
@@ -314,10 +315,10 @@ Created by : mutationthemes
  .main-nav li {
      display: inline-block;
      font-size: 1rem;
-     font-weight: 400;
+     font-weight: 500;
      text-transform: uppercase;
      margin-left: 1.9625rem;
-     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
@@ -333,7 +334,7 @@ Created by : mutationthemes
      color: #ffffff;
      position: relative;
      padding:2rem 0 0 0;
-     letter-spacing: 2px;
+     letter-spacing: 3px;
      margin-right: 0 !important;
 }
 .main-menu li a:hover{
@@ -385,7 +386,7 @@ Created by : mutationthemes
      height: 40vh;
 }
  h1.large {
-     font-size: 2rem;
+     font-size: 30px;
      line-height: 1.2;
      letter-spacing: 1px;
      font-weight: 300;
@@ -939,7 +940,7 @@ section.about a.btn-primary i{display: none;}
     margin-bottom: .75em;
 }
 
-h1.large{font-size: 3rem;}
+h1.large{font-size: 45px;}
 
 
 .block-subscribe p{font-size: 1.4rem;}
@@ -958,7 +959,7 @@ h1.large{font-size: 3rem;}
     textarea {
         -webkit-appearance: none;
     }
-
+ 
 
     .header{
      overflow-y: scroll;
@@ -972,7 +973,7 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
 .playlist li .col-lg-6 span,.block-tab .col-lg-4 span{margin-bottom: 1rem;display: block;}
 
     .back-rect, .front-rect{display: none;}
-    h1.large{font-size: 3rem;}
+    h1.large{font-size: 45px;}
 
 
       .height-70 {
@@ -1013,7 +1014,7 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
     textarea {
         -webkit-appearance: none;
     }
-
+   
 
     .header{
      overflow-y: scroll;
@@ -1070,12 +1071,24 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
 
 
 .card-body h2{
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.7rem;
+    font-weight: 400;
     color: rgb(42, 61, 76);
+    margin-bottom: 10px;
 }
 
 #about .front-p p{
     font-size: 1rem;
     
+}
+
+.inner-hero h1{
+    font-family: 'Dosis';
+    line-height: 2;
+}
+
+#spoty, #sc{
+    font-size: 29px;
+    position: relative;
+    top: 3px;
 }
