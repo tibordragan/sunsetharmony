@@ -403,6 +403,7 @@ Created by : mutationthemes
    }
    .header .logo {
     filter: brightness(100%);
+    top: 0;
 }
 }
 
@@ -1021,8 +1022,8 @@ section.about .block-content.text-md-right, .block-album {margin-bottom: 1.875em
     overflow-x: hidden;
     max-height: 400px;
     }
-
-    .back-rect, .front-rect{display: none;}
+   
+  
     h1.large{font-size: 3rem;}
 
     .playlist li .col-lg-6 span,.block-tab .col-lg-4 span{margin-bottom: 1rem;display: block;}
